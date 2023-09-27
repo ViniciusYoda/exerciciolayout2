@@ -5,7 +5,7 @@ import Icon from 'react-native-vector-icons/Ionicons';
 const App = () => {
   return (
     <View style={styles.container}>
-      {/* Parte superior com input de busca */}
+ 
       <View style={styles.searchContainer}>
         <View style={styles.inputContainer}>
           <Icon name="search" size={24} color="gray" style={styles.searchIcon} />
@@ -19,12 +19,11 @@ const App = () => {
         </View>
       </View>
 
-      {/* Caixa amarela com texto */}
       <View style={styles.yellowBox}>
         <Text style={styles.yellowBoxText}>Finalize payment</Text>
       </View>
 
-      {/* Textos abaixo da caixa amarela */}
+
       <View style={styles.textContainer}>
         <Text style={styles.text}>Text 1</Text>
         <Text style={styles.text}>Text 2</Text>
@@ -33,7 +32,7 @@ const App = () => {
         <Text style={styles.text}>Text 5</Text>
       </View>
 
-      {/* Caixas com texto, botão, e imagem do carro */}
+
       <View style={styles.boxContainer}>
         <View style={styles.box}>
           <View style={styles.boxContent}>
@@ -44,7 +43,7 @@ const App = () => {
             </TouchableOpacity>
           </View>
           <Image
-            source={require('./car1.jfif')} // Substitua pelo caminho da imagem do carro
+            source={require('./car1.jfif')} 
             style={styles.carImage}
           />
         </View>
@@ -57,7 +56,7 @@ const App = () => {
             </TouchableOpacity>
           </View>
           <Image
-            source={require('./car2.jfif')} // Substitua pelo caminho da imagem do carro
+            source={require('./car2.jfif')} 
             style={styles.carImage}
           />
         </View>
@@ -70,13 +69,13 @@ const App = () => {
             </TouchableOpacity>
           </View>
           <Image
-            source={require('./car3.jpg')} // Substitua pelo caminho da imagem do carro
+            source={require('./car3.jpg')} 
             style={styles.carImage}
           />
         </View>
       </View>
 
-      {/* Footer com 4 ícones */}
+
       <View style={styles.footer}>
         <Icon name="home" size={30} color="gray" />
         <Icon name="search" size={30} color="gray" />
